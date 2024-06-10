@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@500&family=Mukta:wght@500&family=Outfit:wght@800&family=Poppins:wght@500&family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+body
+{
+    background-color: black;
+    background-size: 130vh;
+    background-repeat: no-repeat;
+    background-position-y: 2vh;
+    background-position-x: 50vw;
+}
+
+#home
+{
+    height: auto;
+    /* margin-bottom: 10vh; */
+}
+
+#up
+{
+    position: fixed;
+    right: 4vw;
+    bottom: 10vh;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 3vw;
+    z-index: 1;
+    cursor: pointer;
+    transition: transform 0.8s;
+}
+
+#up:hover
+{
+    transform: translateY(-10px);
+}
+
+#open-btn
+{
+    position: fixed;
+    display: block;
+    top: 8vh;
+    left: 2vw;
+    z-index: 3;
+    height: 100%;
+    padding: 0 1vw;
+    left: 0;
+    margin-right: 1vw;
+}
+
+#open-btn i
+{
+    font-size: 7vh;
+    cursor: pointer;
+    color: #008DF6; 
+}
+
+#menu  
+{
+    position: fixed;
+    background-color: rgb(33, 58, 69);
+    height: 100vh;
+    width: auto;
+    padding: 2vh 1vh 0 2vh;
+    display: none;
+    top: 0;
+}
+
+#menu nav ul li
+{   
+    margin-right: 5vw;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 4vh;
+    margin-top: 6vh;
+    font-weight: 700;
+    color: white;
+    padding-bottom: 1vh;
+    cursor: pointer;
+}
+
+#close-btn
+{
+    position: absolute;
+    right: 2vh;
+}
+
+#close-btn i
+{
+    font-size: 7vh;
+    cursor: pointer;
+    color: #008DF6;
+}
+
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 2vh;
+    margin-left: 7vw;
+}
+
+.logo
+{
+    font-family: 'Outfit', sans-serif;
+    font-size: 8vh;
+    
+}
+.header nav ul
+{
+    display: flex;
+
+}
+
+.header nav ul li{
+    margin-right: 5vw;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 4vh;
+    margin-top: 6vh;
+    font-weight: 700;
+    color: white;
+    padding-bottom: 1vh;
+    cursor: pointer;
+}
+
+
+/* .header nav ul li a
+{
+    text-decoration: none;
+    color: white;
+    padding-bottom: 1vh;
+} */
+
+.header nav ul li:hover
+{
+    border-bottom: 1vh solid #008DF6;
+    border-radius: 0.5vh;
+    color: #008DF6;
+}
+
+.container
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 8vh 7vw 0 7vw;
+    flex-wrap: wrap;
+    font-size: 11vh;
+}
+
+.home-content
+{
+    color: white;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+.container img
+{
+    transition: transform 0.5s;
+    width: 65vh;
+}
+
+.container img:hover
+{
+    transform: translateY(-10px);
+}
+
+#skills
+{
+    margin-top: 20vh;
+    height: auto;
+    font-size: 9vh;
+}
+
+.skill-content
+{
+    margin: 1em 0 7vh 7vw;
+}
+
+.skill-content ul li
+{
+    list-style: none;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.6em;
+    padding: 4vh 0;
+}
+
+.headings
+{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9em;
+    margin-left: 7vw;
+}
+
+#education
+{
+    height: auto;
+    font-size: 9vh;
+    margin-top: 3em;
+}
+
+.content
+{
+    margin: 15vh 0 20vh 7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box
+{
+    color: white;
+    padding: 2vh;
+    height: 10em;
+    width: 20vw;
+    border-radius: 2vh;
+    margin: 0 15vh 10vh;
+    /* margin-right: 15vh;
+    margin-bottom: 10vh; */
+    background-color: rgb(33, 58, 69);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Mukta', sans-serif;
+    font-size: 0.8em;
+    transition: transform 0.5s;
+    cursor: pointer;
+    overflow: auto;
+}
+
+.box:hover
+{
+    transform: translateY(-2vh);
+    background-color: #008DF6;
+}
+
+#projects
+{
+    height: auto;
+    margin-top: 15vh;
+    font-size: 9vh;
+}
+
+#contact
+{
+    height: 90vh;
+    margin-top: 15vh;
+    font-size: 9vh;
+}
+
+.contact-content
+{
+    margin: 10vh 0 7vh 7vw;
+}
+
+.contact-content ul li
+{
+    list-style: none;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.6em;
+    padding: 2vh 0;
+}
+
+.smhandles
+{
+    display: flex;
+    margin-top: 5vh;
+}
+
+.smhandles a
+{
+    text-decoration: none;
+    font-size: 1em;
+    margin-right: 4vw;
+}
+
+.footer
+{
+    background-color: rgb(71, 69, 69);
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 2vh 0;
+    color: rgb(232, 232, 232);
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tajuddin Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="resp.css">
+  <script src="https://kit.fontawesome.com/3fc2995485.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="up" onclick="takeup()"><i class="fa-solid fa-circle-arrow-up" style="color: #008DF6; font-size: 8vh;"></i>
+  </div>
+  <div id="open-btn" onclick="opentab()">
+    <i class="fa-solid fa-bars"></i>
+  </div>
+  <div id="menu">
+    <div id="close-btn" onclick="closetab()">
+      <i class="fa-regular fa-rectangle-xmark"></i>
+    </div>
+    <nav>
+      <ul>
+        <li onclick="window.location.href='#home';">Home</li>
+        <li onclick="window.location.href='#skills';">Skills</li>
+        <li onclick="window.location.href='#education';">Education</li>
+        <li onclick="window.location.href='#projects';">Projects</li>
+        <li onclick="window.location.href='#contact';">Contact</li>
+      </ul>
+    </nav>
+  </div>
+  <div id="home">
+    <div class="header">
+      <div class="logo">Tajuddin<span style="font-size: 12vh; color: #008DF6; font-weight: 900;">.</span></div>
+      <nav>
+        <ul>
+          <li onclick="window.location.href='#home';">Home</li>
+          <li onclick="window.location.href='#skills';">Skills</li>
+          <li onclick="window.location.href='#education';">Education</li>
+          <li onclick="window.location.href='#projects';">Projects</li>
+          <li onclick="window.location.href='#contact';">Contact</li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="container">
+      <div class="home-content">
+        <span style="font-size: 1em;">Hi,</span>
+        <br>
+        <span style="font-size: 0.8em;">I am <span style="color: #008DF6; font-weight: 800;">Tajuddin</span></span>
+        <br>
+        <span style="font-size: 0.7em;">Front-End Developer</span>
+        <br>
+        <span style="font-size: 0.5em;">I work with Front-End Technologies<br>like React JS, Bootstrap, HTML, CSS,
+          JavaScript</span>
+      </div>
+      <div class="pic">
+        <img src="pic_b.png" alt="">
+      </div>
+    </div>
+  </div>
+  <div id="skills">
+    <div class="headings">My Skills <i class="fa-solid fa-code fa-fade" style="color: #008DF6;"></i></div>
+    <div class="skill-content">
+      <ul>
+        <li><span style="color: #008DF6; font-weight: 700;">Programming : </span>Python, C, Java, SQL, HTML, CSS,
+          JavaScript, BootStrap, React JS
+        </li>
+        <li><span style="color: #008DF6; font-weight: 700;">Tools : </span>Microsoft Excel, Microsoft Word, Microsoft
+          PowerPoint, Visual Studio Code</li>
+        <li><span style="color: #008DF6; font-weight: 700;">Languages: </span>Fluent in Hindi, Urdu, English, Telugu
+        </li>
+        <li><span style="color: #008DF6; font-weight: 700;">Areas of Interest: </span>Web Development, Computer Networks
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="education">
+    <div class="headings">Education <i class="fa-solid fa-graduation-cap fa-fade" style="color: #008DF6;"></i></div>
+    <div class="content">
+      <div class="box" id="ug" onmouseover="overug()" onmouseout="outug()">
+        Under<br>Graduation
+      </div>
+      <div class="box" id="inter" onmouseover="overinter()" onmouseout="outinter()">
+        Intermediate<br>Education
+      </div>
+      <div class="box" id="ssc" onmouseover="overssc()" onmouseout="outssc()">
+        Secondary<br>Education
+      </div>
+    </div>
+  </div>
+
+  <div id="projects">
+    <div class="headings">Projects <i class="fa-solid fa-laptop-code fa-fade" style="color: #008DF6;"></i></div>
+    <div class="content">
+      <div class="box" id="clock" onmouseover="overclock()" onmouseout="outclock()">
+        Multi Theme<br>Digital Clock
+      </div>
+      <div class="box" id="calc" onmouseover="overcalc()" onmouseout="outcalc()">
+        Calculator
+      </div>
+    </div>
+  </div>
+
+  <div id="contact">
+    <div class="headings">Contact Me <i class="fa-solid fa-user fa-fade" style="color: #008DF6;"></i></div>
+    <div class="contact-content">
+      <div class="phone">
+        <ul>
+          <li>Email Address: mohdtajuddin4@gmail.com</li>
+          <li>Phone Number: +91-7816037300</li>
+        </ul>
+      </div>
+      <div class="smhandles">
+        <a href="https://www.linkedin.com/in/mohammed-tajuddin-cs" target="_blank"><i class="fa-brands fa-linkedin"
+            style="color: #008DF6;"></i></a>
+        <a href="https://www.facebook.com/mohd.tajuddin.794/" target="_blank"><i class="fa-brands fa-facebook"
+            style="color: #008DF6;"></i></a>
+        <a href="https://www.instagram.com/mohd_tajuddin.4/" target="_blank"><i class="fa-brands fa-square-instagram"
+            style="color: #008DF6;"></i></a>
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer">
+      Copyright &copy; Tajuddin
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>

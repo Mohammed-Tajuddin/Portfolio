@@ -1,0 +1,111 @@
+@media only screen /*and (min-width: 800px)*/ and (max-width: 1700px) 
+{
+    /* body
+    {
+        background-color: rgb(130, 72, 72);
+    } */
+
+    #up
+    {
+        right: 10vw;
+    }
+
+    .logo
+    {
+        font-size: 5vh;
+    }
+
+    .logo span
+    {
+        font-size: 7vh;
+    }
+
+    .header nav ul li
+    {
+        font-size: 3vh;
+    }
+
+    .container
+    {
+        font-size: 8vh;
+    }
+
+    .pic img
+    {
+        width: 38vh;
+    }
+
+    #skills
+    {
+        font-size: 5vh;
+    }
+
+    .skill-content ul li
+    {
+        font-size: 0.7em;
+    }
+
+    #education,#projects,#contact
+    {
+        font-size: 5vh;
+    }
+
+    .box
+    {
+        width: 20vw;
+        padding: 10px;
+    }
+
+    .contact-content ul li
+    {
+        font-size: 0.7em;
+    }
+
+    .smhandles a
+    {
+        font-size: 1.3em;
+    }
+
+    .footer
+    {
+        font-size: 1em;
+    }
+}
+@media only screen and (min-width: 850px) and (max-width: 875px)
+{
+  .content
+  {
+    width: 35vw;
+  }
+}
+@media only screen and (max-width: 850px)
+{
+    .header nav ul
+    {
+        display: none;
+    }
+
+    .header
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box
+  {
+    width: 50vw;
+  }
+/* -------extra */
+  .content
+  {
+    margin-left: -40vw;
+    margin-right: -10vw;
+  }
+
+  #up
+  {
+    right: 25vw;
+    bottom: 15vh;
+  }
+}
